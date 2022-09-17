@@ -1,0 +1,29 @@
+{
+    "name": "not moon",
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "Base": {
+         "groundSize": 500,
+         "surfaceSize": 501,
+         "hasMapMarker": true,
+        "surfaceGravity": 23
+        },
+        "Atmosphere": {
+             "size": 150,
+            "fogTint": {
+         "r": 200,
+         "g": 255,
+         "b": 255,
+         "a": 255
+        },   
+        "fogSize": 150,
+      "fogDensity": 0.2
+
+        },
+        "Orbit": {
+            "semiMajorAxis": 25000,
+            "primaryBody": "sun",
+            "isMoon": false,
+            "isTidallyLocked": false,   
+            "eccentricity": 0.255
+        }
+}
